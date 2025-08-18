@@ -8,4 +8,6 @@ def get_income_statement(limit=4):
     return requests.get(url).json()
 
 # Similar functions: get_balance_sheet(), get_cashflow(), get_dividends(), etc.
-print(get_income_statement())
+
+
+# print(get_income_statement())
