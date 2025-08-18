@@ -1,0 +1,18 @@
+
+tencent_financial_analysis/
+├── api/
+│   ├── __init__.py
+│   └── fmp_client.py
+├── analysis/
+│   ├── __init__.py
+│   ├── earnings.py
+│   ├── balance_sheet.py
+│   ├── cashflow.py
+│   ├── dividends.py
+│   └── business_insights_llm.py
+├── report/
+│   ├── __init__.py
+│   └── summary.py
+├── config.py
+├── run_analysis.py
+└── requirements.txt
